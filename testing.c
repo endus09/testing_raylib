@@ -3,7 +3,7 @@
 #include "raylib.h"
 
 int main(void){
-    printf("Hello Gyatt");
+    printf("Hello World");
 
     InitWindow(800,450,"raylib -basic window");
 
@@ -11,7 +11,7 @@ int main(void){
     {
         BeginDrawing();
             ClearBackground(RAYWHITE);
-            DrawText("Hello Gyatt", 190, 200, 20, RED);
+            DrawText("Hello World", 190, 200, 20, RED);
         EndDrawing();
     }
     CloseWindow();
